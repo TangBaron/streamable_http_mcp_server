@@ -17,7 +17,7 @@ async def fetch_weather(city: str):
     try:
         url="https://api.seniverse.com/v3/weather/now.json"
         params={
-            "key": "Sdn484rU9p2JVfu5M",
+            "key": "你注册的心知天气api key",
             "location": city,
             "language": "zh-Hans",
             "unit": "c"
